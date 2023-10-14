@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 100%;
+	background: url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.navbar {
+	width: 86%;
+	display: flex;
+	margin: auto;
+	padding: 15px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo {
+	width: 160px;
+	cursor: pointer;
+	margin-top: -3%;
+	margin-left: -2%;
+}
+
+ul {
+	margin-top: -4%;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 16px;
+}
+
+ul li a {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: darkslategray;
+	margin-top: -3%;
+	transition: 0.4s ease;
+}
+
+ul li a:hover {
+	color: #00bfff;
+}
+
+.projects-section {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.projects-section h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-family: Calibri;
+	background: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.projects-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.project-item {
+	width: calc(33.33% - 30px);
+	margin-bottom: 20px;
+	background: linear-gradient(to right, #87cefa, #00bfff);
+	height: 200px;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+	transform: translateY(0px);
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
+.project-item:hover {
+	transform: translateY(-7px);
+}
+
+.project-item h4 {
+	font-size: 21px;
+	margin: 10px 20px;
+	text-align: left;
+}
+.project-item a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+.project-item:hover a,
+.project-item:hover a ion-icon {
+	color: #242174;
+}
+.project-item p {
+	font-size: 18px;
+	text-align: left;
+	margin: 10px 20px;
+	font-size: medium;
+}
+
+.project-item ion-icon {
+	margin-left: -310px;
+	margin-top: 10px;
+	font-size: 40px;
+	transition: 0.4s ease;
+	color: black;
+}
+
+.project-item ion-icon:hover {
+	color: #242174;
+	text-decoration: none;
+}

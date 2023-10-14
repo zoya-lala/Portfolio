@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 100%;
+	background: url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.navbar {
+	width: 86%;
+	display: flex;
+	margin: auto;
+	padding: 15px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo {
+	width: 160px;
+	cursor: pointer;
+	margin-top: -3%;
+	margin-left: -2%;
+}
+
+ul {
+	margin-top: -4%;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 16px;
+}
+
+ul li a {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: darkslategray;
+	margin-top: -3%;
+	transition: 0.4s ease;
+}
+ul li a:hover {
+	color: #00bfff;
+}
+.skills-section {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.skills-section h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-family: Calibri;
+	background: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.skills-list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.skills-list h4 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.skill {
+	width: 45%;
+	border-radius: 20px;
+	background: linear-gradient(to right, #87cefa, #00bfff);
+	padding-top: 30px;
+	/* color: #242174; */
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.skill-items {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.skill-item {
+	width: calc(33.33% - 20px);
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transform: translateY(0px);
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
+.skill-item:hover {
+	transform: translateY(-7px);
+}
+.skill-item a {
+	color: black; /* replace with your preferred color */
+	text-decoration: none;
+}
+.skill-item a:hover {
+	color: #242174; /* replace with your preferred hover color */
+}
+.skill-item img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 10px;
+}
+.skill-item h4 {
+	font-size: 18px;
+	margin-top: 10px;
+}
+.skill-item1 {
+	width: calc(33.33% - 20px);
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.skill-item1 img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: white;
+	padding: 10px;
+}
+.skill-item1 h4 {
+	font-size: 18px;
+	margin-top: 10px;
+}
